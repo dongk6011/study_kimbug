@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles01.css">
+    <title>Document</title>
+</head>
+
+<!-- scope="row|col"
+헤더에서 가로줄의 헤더인지 세로줄의 헤더인지 th의 성격에서 명확하게 나타낼수있음 -->
+
+
+<body>
+    <table border="1">
+        <thead>
+        <tr>
+            <th colspan="2">월</th>
+            <th scope="col">화</th>
+            <th scope="col">수</th>
+            <th scope="col">목</th>
+            <th scope="col">금</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1교시</th>
+            <td rowspan="2" class="html-css-basic">왕초보HTML&CSS</td>
+            <td>모각코</td>
+            <td rowspan="2" class="html-css-basic">왕초보HTML&CSS</td>
+            <td>모각코</td>
+            <td rowspan="2" class="html-css-basic">왕초보HTML&CSS</td>
+        </tr>
+        <tr>
+            <th scope="row">2교시</th>
+            <td rowspan="2">JavaScript스킬업</td>
+            <td rowspan="2">JavaScript스킬업</td>
+        </tr>
+        <tr>
+            <th scope="row">3교시</th>
+            <td>JavaScript시작반</td>
+            <td>JavaScript시작반</td>
+            <td>JavaScript시작반</td>
+        </tr>
+        <tr>
+            <td colspan="6">점심시간</td>
+        </tr>
+        <tr>
+            <th scope="row">4교시</th>
+            <td >SASS기초반</td>
+            <td rowspan="2">HTML&CSS포트폴리오반</td>
+            <td rowspan="2">Open Seminar</td>
+            <td rowspan="2">HTML&CSS포트폴리오반</td>
+            <td>SASS기초반</td>
+        </tr>
+        <tr>
+            <th scope="row">5교시</th>
+            <td>모각코</td>
+            <td>모각코</td>
+        </tr>
+        </tbody>
+    </table>    
+</body>
+</html>
+
+

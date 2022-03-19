@@ -1,0 +1,191 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Nunito Sans", sans-serif;
+    color: #273444;
+    background-color: #000;
+  }
+  
+  input:focus,
+  input:active,
+  button:focus,
+  button:active {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .modal {
+    background-color: #fff;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6666666667;
+  }
+  
+  .modal-desc {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .input-group input,
+  .input-group button {
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 1.4285714286;
+  }
+  
+  .close-button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    background-image: url(./assets/icon-close.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+/* --------- 내가 추가로 작성한 코드 -----------*/
+
+.modal {
+    position: fixed;
+    padding: 32px 40px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+}
+
+.modal-title,
+.modal-desc {
+    text-align: center;
+}
+
+.modal-title {
+    margin-bottom: 4px;
+}
+
+.modal-desc {
+    width:590px;
+    margin:0px auto 8px;
+}
+
+.input-group {
+    text-align: center;
+}
+
+.input-group input{
+    width:200px;
+    height:36px;
+    background-color: #F6F8FA;
+    border-radius: 4px;
+    border:none;
+    margin-right:8px;
+    padding: 8px 16px;
+}
+
+.input-group button {
+    
+    height: 36px;
+    padding: 8px 13px;
+    border:none;
+    border-radius: 4px;
+    background-color: #2860E1;
+    color: white;
+}
+
+.close-button {
+    position: absolute;
+    top:8px;
+    right:8px;
+}
+
+
+
+/* --------- 내가 작성한 css코드 -----------*/
+
+
+/* * {
+    box-sizing: border-box;
+    margin:0;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing: -0.02em;
+    background-color: gray;
+}
+
+#end {
+    background-image: url(./assets/icon-close.svg);
+    position: absolute;
+    top:12.17px;
+    right:12.17px;
+
+}
+
+.email-card {
+    position: relative;
+    max-width: 671px; 
+    max-height: 216px;
+    border: 1px solid #E5EAEF;
+    border-radius: 4px;
+    background-color: white;
+    
+}
+
+.email-info h1 {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 24px;
+    color:#1F2D3D;
+}
+
+.email-info p {
+    text-align: center;
+    margin-top:4px;
+    font-size: 16px;
+}
+
+.submit-email {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+    
+}
+
+.submit-email input {
+    border-style: none;
+    background-color: #F6F8FA;
+    width:200px;
+    height:36px;
+    border-radius: 4px;
+}
+
+.submit-email button {
+    border-style: none;
+    width:90px;
+    height:36px;
+    border-radius: 4px;
+    background-color: #2860E1;
+    color:white;
+}
+
+.submit-email ::placeholder {
+    padding-top:8px;
+    padding-left:16px; 
+}
+
+.email-card img {
+    position: absolute;
+    top:12.17px;
+    right:12.17px;
+} */
